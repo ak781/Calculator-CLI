@@ -2,7 +2,7 @@
 
 A simple command-line calculator written in Python. This interactive application allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division with user input.
 
-## 🧮 Features
+## Features
 
 - Addition (`+`)
 - Subtraction (`-`)
@@ -10,7 +10,7 @@ A simple command-line calculator written in Python. This interactive application
 - Division (`/`) with zero-division error handling
 - Continuous calculation in a loop until the user chooses to exit
 
-## 🚀 How to Run
+## How to Run
 
 Make sure you have **Python 3** installed on your system.
 
