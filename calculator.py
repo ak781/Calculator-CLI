@@ -16,5 +16,5 @@ while True:
         else:
             print(x/y)
     choice= input("Do You want to continue yes/no: ")
-    if choice=='no':
+    if choice.lower()=='no':
         break
