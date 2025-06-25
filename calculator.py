@@ -5,10 +5,10 @@ def sub(a,b):
 def multi(a,b):
     return a*b
 def div(a,b):
-    if y==0:
+    if b==0:
         print("Zero division error")
     else:
-        print(x/y)
+        print(a/b)
     
 print("Welcome To Calculator CLI App")
 while True:
