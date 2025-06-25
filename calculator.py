@@ -1,3 +1,15 @@
+def add(a,b):
+    return a+b
+def sub(a,b):
+    return a-b
+def multi(a,b):
+    return a*b
+def div(a,b):
+    if y==0:
+        print("Zero division error")
+    else:
+        print(x/y)
+    
 print("Welcome To Calculator CLI App")
 while True:
     x=int(input("Enter first number: "))
@@ -5,16 +17,14 @@ while True:
     print("What you want to do +,-,/,*")
     char=input("Enter your choice: ")
     if (char=='+'):
-        print(x+y)
+        print(add(x,y))
     elif char=='-':
-        print(x-y)
+        print(sub(x,y))
     elif char =='*':
-        print(x*y)
+        print(multi(x,y))
     else:
-        if y==0:
-            print("Zero division error")
-        else:
-            print(x/y)
+        div(x,y)
+        
     choice= input("Do You want to continue yes/no: ")
     if choice.lower()=='no':
         break
